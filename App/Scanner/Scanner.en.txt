@@ -1,0 +1,328 @@
+Scanner 2.12
+------------
+
+Content:
+
+1. Purpose And Usage
+2. Initial folder
+3. Optimization by Parallel Scanning
+4. Language Support
+5. System Requirements
+6. Installation/Deinstallation
+7. Terms of Use
+8. Known Bugs And Limitations
+9. FAQ
+10. Version History
+
+
+1. Purpose And Usage
+
+The Scanner provides a visualization of your media usage. To show the
+relations optimally, all files and folders of the selected disk(s)
+are displayed together in one diagram - with an area size proportional
+to the used space. Smaller objects are invisible, of course. So the
+Scanner is not intended to be a File Manager.
+
+The Scanner uses an extended pie chart with concentric rings. Outer
+segments represent deeper directory levels. When you move the cursor
+over a particular colored area you will see descriptive information
+about it. Right-click on it to open its context menu. It provides
+several actions depending on the object type:
+  - Show/Hide folder contents
+  - Zoom into a folder (also directly available via left-click)
+  - Rescan a folder
+  - Open a file/folder with the appropriate application
+  - Recycle a file/folder (delete it by moving it to Recycle Bin)
+  - Remove a file/folder
+
+After the initial scan you get a hard disk summary. To get similar
+results for any other drives on your computer, please select the
+appropriate button on the left side. Clicking on the selected drive
+again causes a rescan action. Determine which drives are part of the
+summary by using the "Summary" switch in the drive context menu
+(right-click the appropriate button).
+
+Use the "Back" button to change to the previously focused folder,
+"Parent Folder" to step up in the folder hirarchy. The "Rescan Folder"
+button causes rescanning of the focused folder only.
+
+Additionally, the program provides fast access to two means of space
+regain: Software Removal and empty the Recycle Bin. Note: while the
+latter function will be recognized automatically, you should let the
+display update after you removed software.
+
+You can change the size of the application window with the buttons "+"
+and "-".
+
+If you detect any bugs, please report them to me. Include an exact
+description of your drives and the logfile 'Scanner.log', which you can
+generate by pressing 'L' from the Scanner.
+
+
+2. Initial folder
+
+In order to start the tool zoomed to a certain drive or folder, pass the
+path of that drive or folder in the command line. This option can also 
+be used to incorporate the Scanner into the Windows Explorer context 
+menu of drives and folders. You can do that either manually in the 
+"Folder Options" or using the file "Add Scanner to Context Menu.reg" 
+which is contained in the package. For the latter, do the following 
+steps:
+1. Edit the file "Add Scanner to Context Menu.reg"
+2. There are two paths "...\Scanner.exe" contained, change them to the
+   actual location of the tool
+3. Save the changes and close the file
+4. Merge the file to the registry by double click
+
+To remove the context menu entries, merge the file "Delete Scanner from 
+Context Menu.reg" to the registry. You don't need to edit this one 
+before.
+
+
+3. Optimization by Parallel Scanning
+
+This paragraph is only of interest to you if your system contains more
+than one physical hard disk. The program is capable of scanning all
+disks simultaneously, thereby reducing the scan time. Each drive has a
+context menu (right-click the appropriate button), where you can adjust
+the physical device ID. Drives with different numbers are beeing
+scanned simultaneously. Note: Do not adjust partitions on the same
+physical disk to different numbers - you'd make the program slower!
+
+
+4. Language Support
+
+Scanner is capable of detecting the language of your windows system. If
+a translation for this language is available, Scanner will automatically
+use it. In case you experience problems with your localization, please 
+delete the file 'Scanner.lang', so the program will appear in English.
+
+If you'd like to have the program in your native language, but it 
+appears in English on your system, you may send a translation of all 
+used words and phrases (see following list) to me
+(http://www.steffengerlach.de/contact/), I'll include it. Send the words as 
+attached textfile, not inside the mail text! Please have a look in 
+which context the words appear before translating them.
+
+  Scanning...
+  Bytes
+  Files
+  Total
+  Used on
+  Free on
+  Summary
+  Recycle Bin
+  Virtual Memory*
+  Application Wizard
+  Empty Recycle Bin
+  Parent Folder
+  Back
+  Rescan Folder
+  Version
+  Zoom
+  Rescan
+  Open
+  Recycle
+  Remove
+  Physical Device ID
+  Cluster Size*
+  Auto Detect*
+  Show
+  Hide
+  
+*outdated, no longer in use  
+
+
+5. System Requirements
+
+Windows XP or subsequent Windows version
+
+
+6. Installation/Deinstallation
+
+After you have unpacked the ZIP-Archive, the Scanner is ready for use.
+If you want to incorporate the program into the Start Menu, it has to be
+done manually. To uninstall, simply delete all Scanner.* files. The
+program does not change the Windows system directory.
+
+
+7. Terms of Use
+
+This software is Freeware. Usage is not time-limited and does not
+require registration. Everyone is permitted to distribute the package in
+any way without my explicit agreement.
+
+Copyright (C)2012 by Steffen Gerlach
+
+Visit my freeware page for the latest version:
+http://www.steffengerlach.de/freeware/
+
+From there it's also possible to make a donation.
+
+Complaints, comments or proposals may be sent using this web form:
+http://www.steffengerlach.de/contact/
+
+
+8. Known Bugs And Limitations
+
+- When starting with a command line parameter (e.g. from Explorer context 
+  menu), the progress bar doesn't work for the first scanning.
+- The number of accessable drives depends on how many buttons fit to
+  the chosen window size.
+- You can't zoom into folders that are too small to be visible from the
+  parent folder.
+- On some systems, the tool doesn't work with network drives.
+- There are minor problems with some characters from the extended set 
+  (e.g. code 0xB4) when contained in the name of a file or folder. Such objects
+  cannot be passed in the command line (by long file name), and the context
+  menu doesn't fully work for them.
+- The recycle bin folder is recognized by its name. If a normal folder with a
+  name starting on 'RECYCL' is located in the root of a drive, it might be 
+  confused.
+- Sometimes, the tool doesn't show absolutely correct values for the space
+  used by folders. However, this inaccuracy should be very little (far less than 
+  1%).
+- Unformatted drives and drives with file systems which are not 
+  accessable for Windows can't be scanned, even if a button for them 
+  appears.
+
+
+9. FAQ
+
+Question: After launch, the program immediately starts scanning all hard
+disks. I dont like that, because this process takes rather long on my 
+system and I'm only interested in some selective information. What can I 
+do?
+
+Answer: Just do what you want to, don't let the scanning process stop 
+you. The scanning will automatically be abandoned if you order something
+else.
+
+Question: I got more than 13 drives and I'd like to access all of them.
+
+Answer: Enlarge the Scanner window with the "+" button.
+
+Question: I'd like to scan a flash drive but there's no button for it.
+
+Answer: Exit and restart the tool. It only recognizes drives that exist when
+it starts.
+
+Question: One/some of my hard disks appear as hard disk symbols in the 
+drive list to the left, but are not shown in the summary chart. A bug?
+
+Answer: Probably it was yourself who (accidently) removed these drives 
+from the summary. See section 1.
+
+Question: Does the program have a problem with calculating folder sizes? 
+E.g. for my cookies folder, which contains several thousands of very 
+small files, it displays a size of some hundred MB, but the files make 
+not even one MB in total.
+
+Answer: The Scanner shows used space, not cumulated file sizes. Those 
+values may be very different, particularly in the case of small files 
+combined with a large cluster size, because each file consumes a whole 
+cluster in minimum. The cluster size depends on the file system and can 
+be up to 32 KB.
+
+Question: Scanner tells a total used space for my drive that is smaller than 
+the sum of the folder sizes that it tells. How can that be?
+
+Answer: These values are coming from different sources. The drive usage is
+queried from Windows and thus definitely correct. In contrast, the folder sizes
+are calculated by Scanner, which might not be absolutely exact. However, this 
+inaccuracy should be very little (far less than 1%).
+
+Question: Why is the window resizing of the Scanner that awkward and not 
+smooth as usual in Windows applications?
+
+Answer: The process of painting and smoothing the special pie chart 
+takes too much time for a fast, continuous resizing.
+
+
+10. Version History:
+
+2.13 (07/12/12)
+  - bugfix: hangup when breaking multiple drive scan
+
+2.12 (05/15/12)
+  - welcome to the age of TByte
+  - network drives with most of the content not visible to the user: visible 
+    files are not assigned to total drive usage anymore - only visible files 
+	are shown now, not the free/used space of the drive
+  - bugfix: chart update problems when deleting files
+
+2.11 (01/31/12)
+  - bugfix: folders with long filenames not found on some volumes
+  - bugfix: recycle bin not recognized on some volumes under Windows Vista and later
+  - bugfix: correct recognition of sparse file size
+  - bigger window possible
+
+2.10 (01/21/09)
+  - target platform is now Window XP and newer -- the quirks of older systems 
+    are no longer cared for
+  - support for compressed folders and files
+  - overall usage of drives is no longer calculated but queried from the OS, so 
+    these values are always right
+  - recycle bin content is now counted used space, which avoids strange 
+    miscalculations when the data changes after scanning
+  - bug with filenames containing certain extended characters fixed
+  - complete rework
+
+2.8 (03/23/06)
+  - fixed crash after rescan
+
+2.7 (03/17/06)
+  - initial path as command line parameter possible
+  - folders that only link to content in other folders/on other drives are not 
+    scanned
+  - thousand separator is no longer used for sizes because it could easily be 
+    confused with the decimal separator
+
+2.6 (04/13/02)
+  - show/hide option
+
+2.5 (09/01/01)
+  - parallel scanning errors of version 2.3 fixed
+  - variable window size
+  - less strict recycle bin recognition
+  - application responds during scanning
+
+2.3 (06/06/00)
+  - serious bug (with files >=2GByte) fixed
+
+2.2 (05/09/00)
+  - uncommon display problems in high color mode fixed
+  - support for languages with different character set
+
+2.1 (01/17/00)
+  - chart object context menu
+  - experimental network support
+
+2.0 (07/25/99)
+  - folder zoom
+  - drive selectable, all drive types supported
+  - automatic k/M/GBytes display
+  - optional parallel scanning of drives
+  - no more limitation on the total folder number
+
+1.6 (07/05/99)
+  - display preparation speeded up
+
+1.5 (05/30/99)
+  - multi-lingual
+
+1.4 (05/04/99)
+  - serious bug (on partitions >=4GByte) fixed
+
+1.3 (05/02/99)
+  - serious bug (with more than one large partition) fixed
+  - Scanner can generate logfiles now
+
+1.2 (04/17/99)
+  - button graphics changed
+  - anti-aliasing can be turned off now
+
+1.1 (04/14/99)
+  - serious bug (when 16384+ files) fixed
+
+1.0 (03/14/99)

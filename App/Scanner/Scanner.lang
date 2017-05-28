@@ -1,0 +1,587 @@
+bulgarian:
+#2
+Ñêàíèğàíå...
+Byte
+Ôàéëà
+Îáùî
+Çàåòè íà
+Ñâîáîäíè íà
+Îáùî
+Êîø÷å
+Âèğòóàëíà ïàìåò
+Èíñòàëèğàíå è ïğåìàõâàíå íà ïğîãğàìè
+Èç÷èñòâàíå íà êîø÷åòî
+Ğîäèòåëñêà ïàïêà
+Íàçàä
+Îáíîâÿâàíå íà ïàïêàòà
+Âåğñèÿ
+Ïîäğîáíî
+Îáíîâÿâàíå
+Îòâàğÿíå
+Â êîø÷åòî
+Ïğåìàõâàíå
+Ôèçè÷åñêî óñòğîéñòâî
+Ğàçìåğ íà êëúñòúğà
+Àâòîîïğåäåëÿíå
+Ïîêàçâàíå
+Ñêğèâàíå
+
+catalan:
+#3
+Explorant...
+Octets
+Arxius
+Total
+En ús
+Lliure
+Resum
+Paperera de Reciclatge
+Memòria Virtual
+Afegeix o Treu Programes
+Buida la Paperera de Reciclatge
+Puja nivell
+Enrrere
+Actualitza Carpeta
+Versió
+Apropa
+Torna a Explorar
+Obre
+Envia a la Paperera de Reciclatge
+Elimina Definitivament
+ID Components Físics
+Mida del Clúster
+Auto Localitzador
+Mostra
+Amaga
+
+chinese (s):
+#4
+ÕıÔÚÉ¨Ãè¡¤¡¤¡¤¡¤¡¤¡¤
+Bytes 
+ÎÄ¼ş
+×Ü¹²
+ÒÑÓÃ¿Õ¼ä
+Ê£Óà¿Õ¼ä
+¸÷´ÅÅÌ¿Õ¼äÒ»ÀÀ
+»ØÊÕÕ¾
+ĞéÄâÄÚ´æ
+Ğ¶ÔØ»ò¸ü¸Ä³ÌĞò
+Çå¿Õ»ØÊÕÕ¾
+ÉÏ²ãÄ¿Â¼
+·µ»Ø
+Ë¢ĞÂÎÄ¼ş¼Ğ
+°æ±¾ºÅ£º
+½øÈëÎÄ¼ş¼Ğ
+Ë¢ĞÂ
+ÔÚ×ÊÔ´¹ÜÀíÆ÷´ò¿ª
+ÒÆÖÁ»ØÊÕÕ¾
+³¹µ×É¾³ı
+ÎïÀíÉè±¸ID
+´Ø´óĞ¡
+×Ô¶¯¼ì²â
+ÏÔÊ¾
+Òş²Ø
+
+czech:
+#5
+Skenuji...
+Bajtù
+Souborù
+Celkem
+Vyuito na
+Volnıch na
+Všechny disky
+Koš
+Virtuální pamì
+Pøidat nebo ubrat programy
+Vysypat koš
+Nadøazenı adresáø
+Zpìt
+Znovu naèíst sloku
+Verze
+Podrobnosti
+Znovu naèíst
+Otevøít
+Pøesunout do koše
+Odstranit
+ID fyzického zaøízení
+Velikost clusteru
+Automatická detekce
+Zobrazit
+Skrıt
+
+german:
+#7
+Scannen...
+Byte
+Dateien
+Gesamt
+Belegt auf
+Frei auf
+Übersicht
+Papierkorb
+Virtueller Speicher
+Software verwalten
+Papierkorb leeren
+Übergeordneter Ordner
+Zurück
+Ordner neu scannen
+Version
+Zoom
+Neu scannen
+Öffnen
+In den Papierkorb
+Löschen
+Physische Platte
+Clustergröße
+Automatische Erkennung
+Einblenden
+Verstecken
+
+spanish:
+#10
+Analizando...
+Bytes
+Archivos
+Total
+Usado en
+Libre en
+Resumen
+Papelera de reciclaje
+Memoria virtual
+Quitar programas
+Vaciar papelera de reciclaje 
+Carpeta superior
+Volver
+Actualizar carpeta
+Versión
+Zoom
+Actualizar
+Abrir
+Enviar a la papelera de reciclaje
+Borrar
+ID de disco físico
+Tamaño del clúster
+Autodetectar
+Mostrar
+Ocultar
+
+finnish:
+#11
+Tutkitaan levyjä...
+tavua
+Tiedostoa
+Yhteensä
+Käytettyä asemassa
+Vapaata asemassa
+Kaikki asemat
+Roskakori
+Näennäismuisti
+Lisää/Poista sovellus
+Tyhjennä Roskakori
+Ylähakemisto
+Takaisin
+Tutki kansio uudelleen
+Versio
+Zoomaus
+Tutki uudelleen
+Avaa
+Roskakoriin
+Poista
+Fyysisen levyn ID
+Varausyksikön koko
+Automaattinen tunnistus
+Näytä
+Piilota
+
+french:
+#12
+Analyse en cours...
+Octets
+Fichiers
+Total
+Utilisé sur
+Libre sur
+Résumé
+Corbeille
+Mémoire virtuelle
+Assistant Suppression de Programmes
+Vider la Corbeille
+Dossier parent
+Précédent
+Ré-analyser le dossier
+Version
+Agrandir
+Ré-analyser
+Ouvrir
+Jeter dans la Corbeille
+Supprimer définitivement
+Disque physique
+Taille d'une unité d'allocation
+Détection automatique
+Afficher
+Masquer
+
+hungarian:
+#14
+Vizsgálat...
+Bájt
+Fájl
+Teljes
+Felhasznált hely a következõn:
+Szabad hely a következõn:
+Összes
+Lomtár
+Virtuális Memória
+Programok
+Lomtár ürítése
+Egy könyvtárat feljebb
+Vissza
+Könyvtár vizsgálata újra
+Verzió
+Közelítés
+Vizsagálat újra
+Megnyitás
+Kidobás
+Eltávolítás
+Pszihikális Eszközazonosító
+Cluster méret
+Automatikus érzékelés
+Show
+Hide
+
+italian:
+#16
+Lettura disco...
+bytes
+files
+Totale
+Usato su
+Libero su
+Sommario
+Cestino
+Memoria Virtuale
+Installazione guidata applicazioni
+Svuota il cestino
+Cartella superiore
+Indietro
+Rileggi la cartella
+Versione
+Zoom
+Rileggi disco
+Apri
+Cestino
+Rimuovi
+ID Unità fisica
+Dimensione dei cluster
+Ricerca automatica
+Visualizza
+Nascondi
+
+japanese:
+#17
+ƒXƒLƒƒƒ“’†...
+Bytes
+ŒÂ‚Ìƒtƒ@ƒCƒ‹
+‡Œv
+g—p—Ìˆæ on
+‹ó‚«—Ìˆæ on
+—v–ñ
+‚²‚İ” 
+‰¼‘zƒƒ‚ƒŠ
+ƒvƒƒOƒ‰ƒ€‚Ì’Ç‰Á‚Æíœ
+‚²‚İ” ‚ğ‹ó‚É‚·‚é
+1‚Âã‚ÌƒtƒHƒ‹ƒ_‚Ö
+–ß‚é
+XV
+ƒo[ƒWƒ‡ƒ“
+ƒY[ƒ€
+XV
+ŠJ‚­
+‚²‚İ” ‚ÖˆÚ“®
+íœ
+•¨—ƒfƒBƒXƒNID
+ƒNƒ‰ƒXƒ^ƒTƒCƒY
+©“®ŒŸo
+•\¦
+”ñ•\¦
+
+dutch:
+#19
+Doorzoeken...
+Bytes
+Bestanden
+Totaal
+Gebruikt op
+Vrij op
+Samenvatting
+Prullenbak
+Virtueel Geheugen
+Software Verwijderen
+Prullenbak Legen
+Bovenliggende Map
+Terug
+Map Opnieuw Doorzoeken
+Versie
+Inzoomen
+Opnieuw Doorzoeken
+Openen
+Naar de Prullenbak
+Verwijderen
+Fysiek Apparaat
+Cluster Omvang
+Automatische Herkenning
+Show
+Hide
+
+norwegian:
+#20
+Analyserer...
+Bytes
+Filer
+Total
+Brukt på
+Ledig på
+Sammendrag
+Søppelbøtte
+Virtuelt Minne
+Applikasjons Veiviser
+Tøm Søppelbøtte
+Forrige Mappe
+Tilbake
+Gjenta Analyse Av Mappe
+Versjon
+Gå Inn I Mappe
+Gjenta Analyse
+Åpne
+Gjenvinn
+Fjern
+Fysisk Enhetsidentifikasjon
+Cluster Størrelse
+Automatisk Gjenkjenning
+Show
+Hide
+
+polish:
+#21
+Skanowanie... 
+Bajtów 
+Plików 
+Razem 
+Zajête na 
+Wolne na 
+Zestawienie 
+Kosz 
+Pamiêæ wirtualna 
+Dodaj/Usuñ Programy 
+Opró¿nij kosz 
+W górê 
+Wstecz 
+Skanuj ponownie folder 
+Wersja 
+Szczegó³y 
+Skanuj ponownie 
+Otwórz 
+Przenieœ do kosza 
+Usuñ 
+Fizyczny dysk 
+Wielkoœæ klastra 
+Automatyczne wykrywanie 
+Show
+Hide
+
+portuguese:
+#22
+Escaneando...
+Bytes
+Arquivos
+Total
+Usados em
+Livres em
+Sumário
+Lixeira
+Memória Virtual
+Gerenciador de Aplicações
+Esvaziar a Lixeira
+Subir
+Voltar
+Reescanear a pasta
+Versão
+Zoom
+Reescanear
+Abrir
+Remover
+Excluir
+Dispositivo Físico
+Tamanho do Bloco
+Auto-detectar
+Exibir
+Ocultar
+
+romanian:
+#24
+Se scaneazã...
+B
+Fiºiere
+Total
+Utilizare pe
+Liber pe
+Rezumat
+Coº reciclare
+Memorie virtualã
+Asistent (dez)instalare
+Goleºte coºul
+Dosar pãrinte
+Înapoi
+Rescanare dosar
+Versiunea
+Zoom
+Scaneazã din nou
+Deschide
+Recicleazã
+ªterge
+Identificator device fizic
+Mãrime cluster
+Autodetectare
+Show
+Hide
+
+russian:
+#25
+Ñêàíèğóş...
+Byte
+Ôàéëîâ
+Âñåãî
+Çàíÿòî íà
+Ñâîáîäíî íà
+Ñóììàğíî
+Êîğçèíà
+Âèğòóàëüíàÿ ïàìÿòü
+Óñòàíîâêà è óäàëåíèå ïğîãğàìì
+Î÷èñòèòü êîğçèíó
+Ğîäèòåëüñêàÿ ïàïêà
+Íàçàä
+Îáíîâèòü ïàïêó
+Âåğñèÿ
+Ïîäğîáíî
+Îáíîâèòü
+Îòêğûòü
+Â êîğçèíó
+Óäàëèòü
+Ôèçè÷åñêîå óñòğîéñòâî
+Ğàçìåğ êëàñòåğà
+Àâòîîïğåäåëåíèå
+Ïîêàçàòü
+Ñêğûòü
+
+serbian (latin):
+#26
+Skeniranje...
+bajta
+Datoteka
+Ukupno
+Iskorišæeno na disku
+Slobodno na disku
+Svi diskovi
+Korpa za otpatke
+Virtuelna memorija
+Dodavanje i uklanjanje programa
+Pranjenje korpe
+Roditeljski direktorijum
+Natrag
+Ponovno skeniranje direktorijuma
+Verzija
+Zum
+Ponovno skeniranje
+Otvaranje
+Korpa za otpatke
+Uklanjanje
+Fizièki ureğaj
+Velièina klastera
+Automatsko prepoznavanje
+Prikai
+Sakrij
+
+ukrainian:
+#34
+Ñêàíóş...
+Áàéò³â
+Ôàéë³â
+Çàãàëîì
+Âèêîğèñòàíî íà
+Â³ëüíî íà
+Ñóìàğíî
+Êîøèê
+Â³ğòóàëüíà ïàì'ÿòü*
+Ïàíåëü êåğóâàííÿ
+Î÷èñòèòè êîøèê
+Êîğåíåâèé êàòàëîã
+Íàçàä
+Ïîíîâèòè ïàïêó
+Âåğñ³ÿ
+Äåòàëüí³øå
+Ïåğåñêàíóâàòè
+Â³äêğèòè
+Â êîøèê
+Âèäàëèòè
+Ô³çè÷íèé ïğèñòğ³é
+Ğîçì³ğ êëàñòåğà*
+Àâòîìàòè÷íå âèçíà÷åííÿ*
+Ïîêàçàòè
+Ñõîâàòè
+
+estonian:
+#37 
+Skanneerin ...
+Baiti
+Faili
+Kokku
+Kasutatud maht, ketas
+Vaba maht, ketas
+Ülevaade
+Prügikast
+Virtuaalmälu
+Tarkvara haldamine
+Tühjenda prügikast
+Üks aste tagasi
+Tagasi
+Skanneeri kaust uuesti
+Versioon
+Suurendus
+Skanneeri uuesti
+Avatud
+Prügikasti
+Eemalda
+Füüsiline ketas
+Klastri suurus
+Automaatne tuvastamine
+Näita
+Peida
+
+lithuanian:
+#39
+Skenuoja...
+Baitai
+Failai
+Iğ viso
+Iğnaudota diske
+Laisva diske
+Bendra suvestinë
+Ğiukğliø dëşë
+Virtuali atmintis
+Programø ádiegimas ir pağalinimas
+Iğtuğtinti ğiukğliø dëşæ
+Aukğtesnysis aplankas
+Gryşti
+Perskenuoti aplankà
+Versija
+Padidinti
+Perskenuoti
+Atidaryti
+Iğtrinti
+Pağalinti
+Fizinis árenginio Nr.
+Bloko dydis
+Automatiğkai aptikti
+Rodyti
+Paslëpti
